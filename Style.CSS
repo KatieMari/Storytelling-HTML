@@ -25,8 +25,8 @@ p {
 
 /* Style for all images - set width and height */
 img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 /* Purple-bg class sets background to purple */
@@ -79,16 +79,16 @@ img {
 
     25% {
         top: 1500px;
-        left: 1000px;
+        left: 750px;
     }
 
     75% {
         top: 1500px;
-        left: 2000px;
+        left: 1500px;
     }
 
     100% {
         top: 1500px;
-        left: 2500px;
+        left: 2250px;
     }
 }
