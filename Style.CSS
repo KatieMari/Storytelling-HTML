@@ -11,7 +11,7 @@ body {
     width: 100vw;
 }
 
-#id {
+#cup {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: lavenderblush;
     font-size: 100px;
@@ -34,6 +34,7 @@ img {
 nav{
     position: fixed;
     width: 100vw;
+
 }
 /* nav ul selects any ul thats inside a nav */
 nav ul {
