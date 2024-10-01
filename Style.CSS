@@ -1,22 +1,26 @@
+/* Set Margin Padding and Font for whole page */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+/* Body specific CSS */
 body {
     background-color: #eee1d5;
 }
 
+/* Paragraph specfic CSS */
 p {
     color: rgb(255, 255, 255);
 }
 
+/* Purple-bg class sets background to purple */
 .purple-bg {
     background-color: rgb(211, 163, 230);
 }
 
+/* First dic specific background */
 #first-div {
     background-color: #d4c1af;
 }
