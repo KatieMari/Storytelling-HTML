@@ -8,6 +8,7 @@
 /* Body specific CSS */
 body {
     background-color: #eee1d5;
+    width: 100vw;
 }
 
 h1 {
@@ -18,6 +19,7 @@ h1 {
 
 /* Paragraph specfic CSS */
 p {
+    font-size: 25px;
     color: rgb(255, 255, 255);
 }
 
@@ -42,6 +44,22 @@ img {
     background-color: #c9b8a7;
 }
 
+/* Container - centres all content within container */
+.container {
+    width: 100%;
+    height: 400px;
+
+    /* Allows fluidity of the containers content */
+    display: flex;
+    /* Set direction to column to prevent everything on same line */
+    flex-direction: column;
+    /* align items vertically - centered*/
+    align-items: center;
+    /* justify content horizontally- centered */
+    justify-content: center;
+}
+
+
 /* Third div specific colour */
 #third-div {
     background-color: #9c8e80;
@@ -55,22 +73,22 @@ img {
 
 @keyframes makesquare {
     0% {
-        top: 1000px;
+        top: 1500px;
         left: 0px;
     }
 
     25% {
-        top: 1000px;
-        left: 500px;
-    }
-
-    75% {
-        top: 1000px;
+        top: 1500px;
         left: 1000px;
     }
 
+    75% {
+        top: 1500px;
+        left: 2000px;
+    }
+
     100% {
-        top: 1000px;
-        left: 1500px;
+        top: 1500px;
+        left: 2500px;
     }
 }
