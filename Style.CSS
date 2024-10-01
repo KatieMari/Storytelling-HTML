@@ -10,9 +10,21 @@ body {
     background-color: #eee1d5;
 }
 
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lavenderblush;
+    font-size: 100px;
+}
+
 /* Paragraph specfic CSS */
 p {
     color: rgb(255, 255, 255);
+}
+
+/* Style for all images - set width and height */
+img {
+    width: 200px;
+    height: 200px;
 }
 
 /* Purple-bg class sets background to purple */
@@ -20,7 +32,45 @@ p {
     background-color: rgb(211, 163, 230);
 }
 
-/* First dic specific background */
+/* First div specific background */
 #first-div {
-    background-color: #d4c1af;
+    background-color: #ebdcce;
+}
+
+/* Second div specific background */
+#second-div {
+    background-color: #c9b8a7;
+}
+
+/* Third div specific colour */
+#third-div {
+    background-color: #9c8e80;
+}
+
+/* Animation Class and Keyfrome */
+#animated-img {
+    position: absolute;
+    animation: makesquare 5s infinite;
+}
+
+@keyframes makesquare {
+    0% {
+        top: 1000px;
+        left: 0px;
+    }
+
+    25% {
+        top: 1000px;
+        left: 500px;
+    }
+
+    75% {
+        top: 1000px;
+        left: 1000px;
+    }
+
+    100% {
+        top: 1000px;
+        left: 1500px;
+    }
 }
