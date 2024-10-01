@@ -29,6 +29,33 @@ img {
     height: 250px;
 }
 
+/* Navigation bar style */
+/* nav ul selects any ul thats inside a nav */
+nav ul {
+    /* Removes bullet points */
+    list-style-type: none;
+
+    /* Elements appear in a row */
+    display: flex;
+
+    /* Sets colour styles */
+    background-color: lightpink;
+    color: snow;
+}
+
+/* list items within any nav bar styles */
+nav ul li{
+    /* space between element and border */
+padding: 5px;
+/* Style and width */
+border-style: solid;
+border-width: 2px;
+/* Space between border and the other elements */
+margin: 5px;
+}
+
+
+
 /* Purple-bg class sets background to purple */
 .purple-bg {
     background-color: rgb(211, 163, 230);
