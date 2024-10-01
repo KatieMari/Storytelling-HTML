@@ -93,6 +93,10 @@ a {
     justify-content: center;
 }
 
+/* Width of the paragraphs */
+.width-1000px {
+    width: 1000px;
+}
 
 /* Third div specific colour */
 #third-div {
