@@ -44,17 +44,19 @@ nav ul {
 }
 
 /* list items within any nav bar styles */
-nav ul li{
+nav ul li {
     /* space between element and border */
-padding: 5px;
-/* Style and width */
-border-style: solid;
-border-width: 2px;
-/* Space between border and the other elements */
-margin: 5px;
+    padding: 5px;
+    /* Style and width */
+    border-style: solid;
+    border-width: 2px;
+    /* Space between border and the other elements */
+    margin: 5px;
 }
 
-
+a {
+    all: unset;
+}
 
 /* Purple-bg class sets background to purple */
 .purple-bg {
