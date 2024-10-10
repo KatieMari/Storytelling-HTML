@@ -4,73 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="Style.CSS" rel="stylesheet">
+    <meta name="description" content="A story about a ginger cat serving as a gunner on a spaceship.">
+    <title>Too Much Catnip</title>
+    <link href="Styling/style.css" rel="stylesheet" />
+    <link href="Styling/divs.css" rel="stylesheet" />
+    <link href="Styling/animate-img.css" rel="stylesheet" />
+    <link href="Styling/nav.css" rel="stylesheet" />
+    <link href="Styling/responsive.css" rel="stylesheet" />
 </head>
 
-<!-- Navigation Bar -->
-<nav>
-    <!-- ul means unordered list -->
-    <ul>
-        <!-- li means list item -->
-        <a href="./">
-            <li>Home</li>
-        </a>
-
-        <a href="./About/">
-            <li>About</li>
-        </a>
-
-    </ul>
-</nav>
-
-
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./About/">About</a></li>
+        </ul>
+    </nav>
+
     <!-- Title of Story -->
-    <div class="container" id="cup" <h1>
-        Too much Catnip!
-        </h1>
-    </div>
+    <header class="container" id="cup">
+        <h1>Too Much Catnip!</h1>
+    </header>
 
+    <main>
+        <!-- First Part -->
+        <div class="container" id="first-div">
+            <img src="Assets/Images/Gunner Cat.jpg" alt="Gunner Cat">
+            <p class="width-1000px">
+                There was a ginger cat who, despite all odds, was serving as a gunner on a spaceship headed to Mars. An
+                alien is on the horizon, but the gunner knows what needs to be done. And so he put down his guns, for
+                there was
+                nothing he could say.
+            </p>
+        </div>
 
-</body>
-<!-- First Part -->
-<div class="container" id="first-div">
-    <img src="Assets/Images/Gunner Cat.jpg">
-    <p class="width-1000px">
-        There was a ginger cat who, despite all odds, was serving as a gunner on a spaceship headed to Mars. An
-        alien is on the horizon, but the gunner knows what needs to be done. And so he put down his guns, for there
-        was
-        nothing
-        he could say.
-    </p>
-</div>
+        <!-- Second Part -->
+        <div class="container" id="second-div">
+            <img src="Assets/Images/Cat Broken Wall.webp" alt="Cat Breaking Wall">
+            <p class="width-1000px">
+                He then meowed so loudly the neighbours woke up. The neighbour shot a bolt of supercharged plasma at
+                him,
+                which was nimbly dodged. "Darn, that was really close," the neighbour says, disappointed at the missed
+                shot.
+                Until it hits a wall behind it causing it to topple over.
+            </p>
+        </div>
 
-<!-- Second Part -->
-<div class="container" id="second-div">
-    <img src="Assets/Images/Cat Broken Wall.webp">
-    <p class="width-1000px">
-        He then meowed so loudly the neighbours woke up. The neighbour shot a bolt of supercharged plasma at him,
-        which was nimbly dodged."Darn, that was really close," the neighbour says, disappointed at the missed shot.
-        Until
-        it hits a wall behind it causing it to topple over.
-    </p>
-</div>
+        <!-- Third Part -->
+        <div class="container" id="third-div">
+            <img src="Assets/Images/Cat Betrayal.jpg" alt="Cat Betrayal">
+            <p class="width-1000px">
+                He cried for his dog's friend to help him up. But they pull out a gun, uttering the iconic opening line
+                from
+                Fallout New Vegas, pointing it at their "friend". "Bazinga," they say, gun in hand. The enemy is utterly
+                confused - so much so that it is still and unmoving. As confused as the enemy is, the narrator and
+                everyone
+                else is even more confused.
+            </p>
+        </div>
 
-<!-- Third Part -->
-<div class="container" id="third-div">
-    <img src="Assets/Images/Cat Betrayal.jpg">
-    <p class="width-1000px">
-        He cried for his dogs friend to help him up. But they pull out a gun, uttering the iconic opening line from
-        Fallout New Vegas, pointing it as their "friend". "Bazinga", they say, gun in hand. The enemmy is utterly
-        confused - so much so that it is still and unmoving. As confused as the enemy is the narrator and everyone
-        else is even more confused.
-    </p>
-</div>
-
-<!-- Extra: Animated Image, Position set from CSS -->
-<img id="animated-img" src="Assets/Images/Too much Catnip.jpg" />
-
+        <!-- Extra: Animated Image, Position set from CSS -->
+        <img id="animated-img" src="Assets/Images/Too much Catnip.jpg" alt="Too Much Catnip" />
+    </main>
 </body>
 
 </html>

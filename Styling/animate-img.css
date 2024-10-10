@@ -1,0 +1,29 @@
+/* Animation Class and Keyframe */
+#animated-img {
+    position: absolute;
+    animation: makesquare 10s linear infinite; /* Use linear for smooth movement */
+    will-change: transform; /* Hint to the browser for optimization */
+}
+
+@keyframes makesquare {
+    0% {
+        top: 0; /* Start at the top left */
+        left: 0; /* Top left corner */
+    }
+    25% {
+        top: 0; /* Move to the top right */
+        left: calc(100% - 250px); /* Adjust left to the right edge minus image width */
+    }
+    50% {
+        top: calc(100% - 250px); /* Move to the bottom right */
+        left: calc(100% - 250px); /* Bottom right corner */
+    }
+    75% {
+        top: calc(100% - 250px); /* Move to the bottom left */
+        left: 0; /* Adjust left to the left edge */
+    }
+    100% {
+        top: 0; /* Return to the top left */
+        left: 0; /* Ensure it finishes at the starting point */
+    }
+}

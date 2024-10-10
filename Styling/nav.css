@@ -1,0 +1,29 @@
+/* Navigation bar style */
+nav {
+    position: fixed; /* Fix the navigation at the top */
+    width: 100vw;
+}
+
+/* nav ul selects any ul that's inside a nav */
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    display: flex; /* Elements appear in a row */
+    background-color: #decce7; /* Soft orange for a playful touch */
+    color: #3e3e3e; /* Darker text for contrast */
+}
+
+/* list items within any nav bar styles */
+nav ul li {
+    padding: 10px; /* Increased padding for better touch targets */
+    border: 2px solid #d6bbe4; /* Dark border for visibility */
+    margin: 5px;
+    cursor: pointer; /* Shows pointer upon hovering element */
+    border-radius: 10px; /* Rounded corners for buttons */
+    transition: all 0.2s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for nav items */
+nav ul li:hover {
+    background-color: #d6bbe4; /* Lighten the color on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
