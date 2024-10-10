@@ -1,29 +1,48 @@
 /* Navigation bar style */
 nav {
-    position: fixed; /* Fix the navigation at the top */
+    /* Font for nav bar */
+    font-family: "Protest Strike", sans-serif;
+    /* Fix the navigation at the top */
+    position: fixed;
+    /* Ensure it's at the very top */
+    top: 0;
+    /* Full width of the nav bar */
     width: 100vw;
+    /* Keeps it ontop of other elements */
+    z-index: 1000;
 }
 
-/* nav ul selects any ul that's inside a nav */
+/* Nav ul selects any ul that's inside a nav */
 nav ul {
-    list-style-type: none; /* Removes bullet points */
-    display: flex; /* Elements appear in a row */
-    background-color: #decce7; /* Soft orange for a playful touch */
-    color: #3e3e3e; /* Darker text for contrast */
+    /* Removes bullet points */
+    list-style-type: none;
+    /* Elements appear in a row */
+    display: flex;
+    /* Background Colour */
+    background-color: #decce7;
+    /* Darker text for contrast */
+    color: #3e3e3e;
 }
 
-/* list items within any nav bar styles */
+/* List items within any nav bar styles */
 nav ul li {
-    padding: 10px; /* Increased padding for better touch targets */
-    border: 2px solid #d6bbe4; /* Dark border for visibility */
+    /* Increased padding for better touch targets */
+    padding: 10px;
+    /* Dark border for visibility */
+    border: 2px solid #d6bbe4;
     margin: 5px;
-    cursor: pointer; /* Shows pointer upon hovering element */
-    border-radius: 10px; /* Rounded corners for buttons */
-    transition: all 0.2s ease; /* Smooth transition on hover */
+    /* Shows pointer upon hovering element */
+    cursor: pointer;
+    /* Rounded corners for buttons */
+    border-radius: 10px;
+    /* Smooth transition on hover */
+    transition: all 0.2s ease;
 }
 
 /* Hover effect for nav items */
 nav ul li:hover {
-    background-color: #d6bbe4; /* Lighten the color on hover */
-    transform: scale(1.05); /* Slightly scale up on hover */
+    /* Lighten the color on hover */
+    background-color: #d6bbe4;
+    /* Slightly scale up on hover */
+    transform: scale(1.05);
 }

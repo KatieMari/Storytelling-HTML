@@ -1,13 +1,25 @@
+#cup {
+    /* Font Family */
+    font-family: "Protest Strike", sans-serif;
+    background-color: #ebe2d2;
+    color: #3e3e3e;
+    font-size: 75px;
+    /* Rounded Corners */
+    border-radius: 15px;
+    /* Adds space below */
+    margin-bottom: 20px;
+    /* Adds space above */
+    margin-top: 80px;
+}
+
+
 /* First div specific background */
 #first-div {
     background-color: #ecdfc8;
-
     /* Rounded corners for each div */
     border-radius: 15px;
-    
     /* Inner spacing */
     padding: 20px;
-    
     /* Adds Margin to Bottom of Div */
     margin-bottom: 20px;
 }
@@ -15,13 +27,10 @@
 /* Second div specific background */
 #second-div {
     background-color: #e0c7b1;
-
     /* Rounded corners for each div */
     border-radius: 15px;
-    
     /* Inner spacing */
     padding: 20px;
-    
     /* Adds Margin to Bottom of Div */
     margin-bottom: 20px;
 }
@@ -29,15 +38,10 @@
 /* Third div specific color */
 #third-div {
     background-color: #f2d6c5;
-
     /* Rounded corners for each div */
     border-radius: 15px;
-
     /* Inner spacing */
     padding: 20px;
-    
     /* Adds Margin to Bottom of Div */
     margin-bottom: 20px;
-    /* Added padding for better spacing */
-padding: 20px;
 }

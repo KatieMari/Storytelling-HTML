@@ -1,29 +1,45 @@
 /* Animation Class and Keyframe */
 #animated-img {
     position: absolute;
-    animation: makesquare 10s linear infinite; /* Use linear for smooth movement */
-    will-change: transform; /* Hint to the browser for optimization */
+    /* Use linear for smooth movement */
+    animation: makesquare 10s linear infinite;
+    /* Hint to the browser for optimization */
+    will-change: transform;
 }
 
 @keyframes makesquare {
     0% {
-        top: 0; /* Start at the top left */
-        left: 0; /* Top left corner */
+        /* Start at the top left */
+        top: 0;
+        /* Top left corner */
+        left: 0;
     }
+
     25% {
-        top: 0; /* Move to the top right */
-        left: calc(100% - 250px); /* Adjust left to the right edge minus image width */
+        /* Move to the top right */
+        top: 0;
+        /* Adjust left to the right edge minus image width */
+        left: calc(100% - 250px);
     }
+
     50% {
-        top: calc(100% - 250px); /* Move to the bottom right */
-        left: calc(100% - 250px); /* Bottom right corner */
+        /* Move to the bottom right */
+        top: calc(100% - 250px);
+        /* Bottom right corner */
+        left: calc(100% - 250px);
     }
+
     75% {
-        top: calc(100% - 250px); /* Move to the bottom left */
-        left: 0; /* Adjust left to the left edge */
+        /* Move to the bottom left */
+        top: calc(100% - 250px);
+        /* Adjust left to the left edge */
+        left: 0;
     }
+
     100% {
-        top: 0; /* Return to the top left */
-        left: 0; /* Ensure it finishes at the starting point */
+        /* Return to the top left */
+        top: 0;
+        /* Ensure it finishes at the starting point */
+        left: 0;
     }
 }

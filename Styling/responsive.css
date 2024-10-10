@@ -1,0 +1,19 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    /* Media query for responsive design */
+    body {
+        /* Decrease font size for smaller screens */
+        font-size: 18px;
+    }
+
+    nav ul li {
+        /* Reduce padding for smaller screens */
+        padding: 8px;
+    }
+
+    #cup {
+        /* Adjust size for smaller screens */
+        font-size: 70px;
+    }
+}

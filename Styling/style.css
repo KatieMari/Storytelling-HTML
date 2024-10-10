@@ -9,7 +9,6 @@
 /* Body specific CSS */
 body {
     background-color: #f8f4e3;
-    /* Light cream for a warm feel */
     width: 100vw;
 }
 
@@ -18,22 +17,21 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     color: #4a4a4a;
-    /* Dark gray for better readability */
     text-align: center;
 }
 
 /* Style for all images - maintain aspect ratio */
 img {
     max-width: 250px;
+    /* Height adjusts automatically */
     height: auto;
-    border-radius: 15px;
     /* Rounded corners */
+    border-radius: 15px;
 }
 
 /* Remove default a element CSS */
 a {
     all: unset;
-    /* Remove default styles */
 }
 
 /* Container - centers all content within container */
@@ -42,7 +40,6 @@ a {
     /* Changed to min-height and max-width for flexibility */
     max-width: 1200px;
     min-height: 400px;
-
     /* Allows Fluidity of the Containers Content */
     display: flex;
     /*  Sets Direction to Column*/
@@ -51,7 +48,6 @@ a {
     align-items: center;
     /* Horizontally Centered */
     justify-content: center;
-
     /* Added padding for better spacing */
     padding: 20px;
     /* Added: Space between image and text */
@@ -63,13 +59,4 @@ a {
 /* Width of the paragraphs */
 .width-1000px {
     width: 1000px;
-}
-
-
-
-
-#cup {
-    font-family: Protest Strike;
-    color: #3e3e3e;
-    font-size: 50px;
 }
